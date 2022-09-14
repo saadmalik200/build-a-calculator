@@ -9,7 +9,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 100%;
 }
 
 /**************/
@@ -61,10 +61,10 @@ main {
 /*******************/
 
 .inputSection {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   padding-top: 1rem;
   border-top-left-radius: 5px;
-  width: 190px;
+  width: 19rem;
 }
 .inputField {
   width: 100%;
@@ -73,9 +73,10 @@ main {
   background: #ffffff;
   box-shadow: 1px 1px 5px #888484, -1px -1px 5px #ffffff;
   text-align: right;
-  padding: 0.25rem 1rem;
+  padding: 0.5rem 1rem;
   /* appearance: none; */
   font-weight: bold;
+  font-size: 1.4rem;
 }
 
 input::-webkit-outer-spin-button,
@@ -97,6 +98,7 @@ input::-webkit-inner-spin-button {
   background: #e0e0e0;
   box-shadow: 1px 1px 7px #888484, -1px -1px 7px #ffffff;
   font-weight: bold;
+  font-size: 1.4rem;
   /* border-radius: 50px;
   background: #e0e0e0;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff; */
